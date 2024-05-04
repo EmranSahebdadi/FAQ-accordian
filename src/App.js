@@ -67,7 +67,7 @@ function AccordionItem({ title, text, curOpen, onOpen, children, id }) {
     <div className={`item ${isOpen ? "open" : ""}`} onClick={handleToggle}>
       <div className="wrapper">
         <p className="title">{title}</p>
-        <button className={`btn ${isOpen ? "miunse-icon" : ""}`}>
+        <button className={`btn ${isOpen ? "minuse-icon" : ""}`}>
           {isOpen ? <FiMinus style={style} /> : <IoMdAdd style={style} />}
         </button>
         {/* <button className="btn">
